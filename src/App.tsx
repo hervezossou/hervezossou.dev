@@ -7,13 +7,15 @@ import Contact from "./components/organisms/Contact"
 function App() {
 
   return (
-    <>
-      <Hero />
-      <About />
-      <Projects />
-      <Skills />
-      <Contact />
-    </>
+    <div className="min-h-screen bg-gray-100 dark:bg-gray-900 text-gray-900 dark:text-gray-100">
+      <main className="pt-16">
+        <Hero />
+        <About />
+        <Projects />
+        <Skills />
+        <Contact />
+      </main>
+    </div>
   )
 }
 
