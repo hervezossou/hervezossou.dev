@@ -13,8 +13,9 @@ export default function ContactForm () {
         >
             <div className="p-8 rounded-xl bg-white/50 dark:bg-white/5 backdrop-blur-sm">
                 <form className="space-y-6">
-                    <TextField label="Name" type="text" />
-                    <TextField label="Email" type="email" />
+                    <TextField label="Name" type="text" placeholder="Your name" />
+                    <TextField label="Email" type="email" placeholder="yourname@example.com" />
+                    <TextField label="Subject" type="text" placeholder="Subject" />
                     <TextareaField />
                     <FormSubmit />
                 </form>
