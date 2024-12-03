@@ -16,7 +16,7 @@ export default function Contact () {
                 <motion.p
                     initial={{ opacity: 0 }}
                     whileInView={{ opacity: 1 }}
-                    className="max-w-xl mx-auto text-base md:text-lg lg:text-xl xl:text-2xl text-center mb-12"
+                    className="max-w-xl mx-auto text-base text-gray-600 dark:text-gray-300 md:text-lg lg:text-xl text-center mb-12"
                 >
                     What&apos;s next? Feel free to reach out to me if you are looking for a developer, have a query, or simply want to connect.
                 </motion.p>

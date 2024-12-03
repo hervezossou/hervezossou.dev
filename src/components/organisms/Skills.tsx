@@ -17,7 +17,7 @@ export default function Skills () {
                 <motion.p
                     initial={{ opacity: 0 }}
                     whileInView={{ opacity: 1 }}
-                    className="max-w-xl mx-auto text-base md:text-lg lg:text-xl text-center mb-12"
+                    className="max-w-xl mx-auto text-base text-gray-600 dark:text-gray-300 md:text-lg lg:text-xl text-center mb-12"
                 >
                     The skills, tools and technologies I am really good at
                 </motion.p>

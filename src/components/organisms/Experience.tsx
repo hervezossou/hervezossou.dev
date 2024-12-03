@@ -17,7 +17,7 @@ export default function Experience () {
                 <motion.p
                     initial={{ opacity: 0 }}
                     whileInView={{ opacity: 1 }}
-                    className="max-w-xl mx-auto text-base md:text-lg lg:text-xl text-center mb-12"
+                    className="max-w-xl mx-auto text-base text-gray-600 dark:text-gray-300 md:text-lg lg:text-xl text-center mb-12"
                 >
                     Here is a quick summary of my most recent experiences
                 </motion.p>
