@@ -11,8 +11,8 @@ function App() {
       <main className="pt-16">
         <Hero />
         <About />
-        <Projects />
         <Skills />
+        <Projects />
         <Contact />
       </main>
     </div>

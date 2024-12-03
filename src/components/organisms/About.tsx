@@ -5,16 +5,16 @@ export default function About () {
     return (
         <section className="py-20 relative overflow-hidden">
             <div className="absolute inset-0 bg-gradient-to-br from-blue-500/10 to-purple-500/10 backdrop-blur-sm" />
-            <div className="container mx-auto px-4 z-10 relative">
+            <div className="container mx-auto px-4 md:px-20 relative z-10">
                 <motion.h2
                     initial={{ opacity: 0 }}
                     whileInView={{ opacity: 1 }}
-                    className="text-4xl font-bold text-center md:text-left mb-12 bg-clip-text text-transparent bg-gradient-to-r from-blue-600 to-purple-600"
+                    className="text-4xl font-bold text-center mb-12 bg-clip-text text-transparent bg-gradient-to-r from-blue-600 to-purple-600"
                 >
                     About Me
                 </motion.h2>
 
-                <div className="flex flex-col md:flex-row items-center gap-12 md:gap-8">
+                <div className="flex flex-col md:flex-row items-center justify-between gap-12 md:gap-8">
                     {/* Profile Image Block */}
                     <AboutPicture />
 

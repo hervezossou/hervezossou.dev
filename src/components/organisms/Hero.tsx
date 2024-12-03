@@ -6,7 +6,7 @@ export default function Hero () {
     return (
         <section className="min-h-screen flex items-center justify-center relative overflow-hidden py-16 lg:py-24">
             <div className="absolute inset-0 bg-gradient-to-br from-purple-500/10 to-blue-500/10 backdrop-blur-sm" />
-            <div className="container mx-auto px-4 z-10">
+            <div className="container mx-auto px-4 md:px-20 relative z-10">
                 <div className="flex flex-col md:flex-row items-center gap-12 md:gap-8">
                     {/* Content Block */}
                     <motion.div
