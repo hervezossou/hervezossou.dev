@@ -23,7 +23,7 @@ export default function About () {
                         initial={{ opacity: 0, y: 20 }}
                         whileInView={{ opacity: 1, y: 0 }}
                         transition={{ duration: 0.8 }}
-                        className="w-full md:w-1/2 text-center md:text-left"
+                        className="w-full md:w-2/3 text-center md:text-left"
                     >
                         <motion.p
                             className="text-xl text-gray-600 dark:text-gray-300 mb-6"
