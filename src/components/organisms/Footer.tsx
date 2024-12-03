@@ -9,9 +9,9 @@ export default function Footer () {
         <motion.footer
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
-            className="bg-white/5 dark:bg-gray-900/50 backdrop-blur-lg border-t border-gray-200 dark:border-white/10 py-8"
+            className="bg-white/5 dark:bg-gray-900/50 backdrop-blur-lg border-t border-gray-200 dark:border-white/10 py-8 md:pt-16 lg:pt-20"
         >
-            <div className="container mx-auto px-4">
+            <div className="container mx-auto px-4 md:px-16 lg:px-20">
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
                     {/* Brand Section */}
                     <div className="space-y-4">
