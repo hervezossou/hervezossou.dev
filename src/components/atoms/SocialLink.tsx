@@ -14,7 +14,7 @@ export default function SocialLink ({href, icon, label} : SocialLinkProps) {
             whileHover={{ scale: 1.1 }}
             whileTap={{ scale: 0.95 }}
         >
-            <span>{label}</span>
+            <span className="sr-only">{label}</span>
             {icon}
         </motion.a>
     )
