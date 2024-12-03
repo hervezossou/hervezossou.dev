@@ -1,6 +1,6 @@
 import { motion } from "motion/react"
-import SocialLinks from "../molecules/SocialLinks"
-import { Heart } from "lucide-react"
+import SocialLink from "../atoms/SocialLink"
+import { Heart, Github, Linkedin, Twitter, Mail } from "lucide-react"
 
 export default function Footer () {
     const currentYear = new Date().getFullYear()
@@ -37,7 +37,17 @@ export default function Footer () {
                     {/* Social Links */}
                     <div className="space-y-4">
                         <h4 className="text-lg font-semibold">Let's connect</h4>
-                        <SocialLinks />
+                        <motion.div
+                            className="flex space-x-4"
+                            initial={{ opacity: 0 }}
+                            animate={{ opacity: 1 }}
+                            transition={{ delay: 0.4 }}
+                        >
+                            <SocialLink href="#" icon={<Github />} label="GitHub" />
+                            <SocialLink href="#" icon={<Linkedin />} label="LinkedIn" />
+                            <SocialLink href="#" icon={<Twitter />} label="Twitter" />
+                            <SocialLink href="#" icon={<Mail />} label="Email" />
+                        </motion.div>
                     </div>
                 </div>
                 {/* Copyright */}
