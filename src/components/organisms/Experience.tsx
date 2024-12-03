@@ -10,10 +10,17 @@ export default function Experience () {
                 <motion.h2
                     initial={{ opacity: 0 }}
                     whileInView={{ opacity: 1 }}
-                    className="text-4xl font-bold text-center mb-12 bg-clip-text text-transparent bg-gradient-to-r from-purple-600 to-blue-600"
+                    className="text-4xl font-bold text-center mb-6 bg-clip-text text-transparent bg-gradient-to-r from-purple-600 to-blue-600"
                 >
                     Experience
                 </motion.h2>
+                <motion.p
+                    initial={{ opacity: 0 }}
+                    whileInView={{ opacity: 1 }}
+                    className="max-w-xl mx-auto text-base md:text-lg lg:text-xl text-center mb-12"
+                >
+                    Here is a quick summary of my most recent experiences
+                </motion.p>
                 <div className="max-w-4xl mx-auto">
                     {experiences.map((experience, index) => (
                         <ExperienceCard key={index} experience={experience} index={index} />

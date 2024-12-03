@@ -17,11 +17,11 @@ export default function Skills () {
                 <motion.p
                     initial={{ opacity: 0 }}
                     whileInView={{ opacity: 1 }}
-                    className="max-w-xl mx-auto text-base md:text-lg lg:text-xl xl:text-2xl text-center mb-12"
+                    className="max-w-xl mx-auto text-base md:text-lg lg:text-xl text-center mb-12"
                 >
                     The skills, tools and technologies I am really good at
                 </motion.p>
-                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6">
                     {skills.map((skill, index) => (
                         <SkillCard 
                             key={index} 

@@ -16,7 +16,7 @@ export default function Projects () {
                 <motion.p
                     initial={{ opacity: 0 }}
                     whileInView={{ opacity: 1 }}
-                    className="max-w-xl mx-auto text-base md:text-lg lg:text-xl xl:text-2xl text-center mb-12"
+                    className="max-w-xl mx-auto text-base md:text-lg lg:text-xl text-center mb-12"
                 >
                     Some of the noteworthy projects I have built
                 </motion.p>
