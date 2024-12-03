@@ -1,6 +1,6 @@
 import SocialLink from "../atoms/SocialLink"
 import { motion } from "motion/react"
-import { Github, Linkedin, Mail } from "lucide-react"
+import { Github, Linkedin, Twitter, Mail } from "lucide-react"
 
 export default function SocialLinks () {
     return (
@@ -12,6 +12,7 @@ export default function SocialLinks () {
       >
           <SocialLink href="#" icon={<Github />} label="GitHub" />
           <SocialLink href="#" icon={<Linkedin />} label="LinkedIn" />
+          <SocialLink href="#" icon={<Twitter />} label="Twitter" />
           <SocialLink href="#" icon={<Mail />} label="Email" />
       </motion.div>
     )
