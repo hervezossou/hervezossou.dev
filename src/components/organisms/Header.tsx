@@ -29,9 +29,9 @@ export const Header = () => {
       <motion.header
         initial={{ y: -100 }}
         animate={{ y: 0 }}
-        className="fixed top-0 left-0 right-0 z-50 bg-gray-900/50 dark:bg-gray-900/50 backdrop-blur-lg border-b border-white/10"
+        className="fixed top-0 left-0 right-0 z-50 bg-white/50 dark:bg-gray-900/50 backdrop-blur-lg border-b border-white/10"
       >
-        <div className="container mx-auto px-4">
+        <div className="container mx-auto px-8 lg:px-24">
           <div className="flex items-center justify-between h-16">
             <motion.div
               initial={{ opacity: 0 }}
