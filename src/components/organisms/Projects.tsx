@@ -4,7 +4,7 @@ import { projects } from "../../data/projects"
 
 export default function Projects () {
     return (
-        <section className="py-20 bg-gradient-to-b from-transparent to-purple-500/5 dark:to-purple-500/5">
+        <section id="projects" className="py-20 bg-gradient-to-b from-transparent to-purple-500/5 dark:to-purple-500/5">
             <div className="container mx-auto px-4 md:px-20 relative z-10">
                 <motion.h2
                     initial={{ opacity: 0 }}

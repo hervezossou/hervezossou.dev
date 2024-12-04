@@ -3,7 +3,7 @@ import ContactForm from "../molecules/ContactForm"
 
 export default function Contact () {
     return (
-        <section className="py-20 relative">
+        <section id="contact" className="py-20 relative">
             <div className="absolute inset-0 bg-gradient-to-t from-purple-500/5 to-transparent dark:from-purple-500/5" />
             <div className="container mx-auto px-4 md:px-20 relative z-10">
                 <motion.h2

@@ -3,7 +3,7 @@ import AboutPicture from "../atoms/AboutPicture"
 
 export default function About () {
     return (
-        <section className="py-20 relative overflow-hidden">
+        <section id="about" className="py-20 relative overflow-hidden">
             <div className="absolute inset-0 bg-gradient-to-br from-blue-500/10 to-purple-500/10 backdrop-blur-sm" />
             <div className="container mx-auto px-4 md:px-20 relative z-10">
                 <motion.h2
