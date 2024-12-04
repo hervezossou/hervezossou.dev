@@ -6,7 +6,7 @@ export default function HeroPicture () {
             initial={{ opacity: 0, scale: 0.8 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 0.8 }}
-            className="w-full md:w-1/2 flex items-center justify-center"
+            className="w-full md:w-1/2 flex items-center justify-center md:justify-end"
         >
             <div className="relative w-64 h-64 lg:w-80 lg:h-80">
                 <div className="absolute inset-0 bg-gradient-to-br from-purple-600/20 to-blue-600/20 rounded-full blur-2xl" />
