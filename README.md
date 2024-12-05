@@ -1,8 +1,8 @@
 <h1 align="center">
-  Product-Designer-Portolio
+  My Personal Portfolio Website
 </h1>
 <p align="center">
-  Product Designer Portfolio website built with <a href="https://html.com/" target="_blank">HTML</a>, <a href="https://tailwindcss.com" target="_blank">Tailwind CSS</a>, and <a href="https://flowbite.com/" target="_blank">Flowbite</a>.⚡
+  My personal portfolio showcasing my expertise in front-end development. Built with React.js, TypeScript, Tailwind CSS, and Framer Motion to deliver a clean, responsive, and interactive user experience. Deployed seamlessly on Vercel for fast and reliable access.⚡
 </p>
 
 ## Tech Stack
