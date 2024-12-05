@@ -26,7 +26,7 @@ export default function About () {
                         className="w-full md:w-2/3 text-center md:text-justify"
                     >
                         <motion.p
-                            className="text-base text-gray-600 dark:text-gray-300 mb-6"
+                            className="text-sm md:text-base lg:text-base xl:text-lg text-gray-600 dark:text-gray-300 mb-6"
                             initial={{ opacity: 0 }}
                             whileInView={{ opacity: 1 }}
                             transition={{ delay: 0.2 }}
@@ -34,7 +34,7 @@ export default function About () {
                             With a background in statistical engineering, I discovered my passion for development in 2023 during an internship with COSIT Benin. This experience ignited my love for crafting visually stunning, interactive, and accessible user interfaces.
                         </motion.p>
                         <motion.p
-                            className="text-base text-gray-600 dark:text-gray-300 mb-6"
+                            className="text-sm md:text-base lg:text-base xl:text-lg text-gray-600 dark:text-gray-300 mb-6"
                             initial={{ opacity: 0 }}
                             whileInView={{ opacity: 1 }}
                             transition={{ delay: 0.3 }}
@@ -43,7 +43,7 @@ export default function About () {
                             My expertise includes modern JavaScript frameworks, particularly React, along with state-of-the-art tools and best practices in web development.
                         </motion.p>
                         <motion.p
-                            className="text-base text-gray-600 dark:text-gray-300"
+                            className="text-sm md:text-base lg:text-base xl:text-lg text-gray-600 dark:text-gray-300"
                             initial={{ opacity: 0 }}
                             whileInView={{ opacity: 1 }}
                             transition={{ delay: 0.4 }}

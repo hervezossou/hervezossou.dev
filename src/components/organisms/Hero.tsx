@@ -24,7 +24,7 @@ export default function Hero () {
                             Hi, I&apos;m Hervé ZOSSOU
                         </motion.h1>
                         <motion.p
-                            className="text-base text-gray-600 dark:text-gray-300 mb-8 max-w-2xl mx-auto md:mx-0"
+                            className="text-sm md:text-base lg:text-base xl:text-lg text-gray-600 dark:text-gray-300 mb-8 max-w-2xl mx-auto md:mx-0"
                             initial={{ opacity: 0 }}
                             animate={{ opacity: 1 }}
                             transition={{ delay: 0.2 }}
