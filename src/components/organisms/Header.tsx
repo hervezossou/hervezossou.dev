@@ -38,7 +38,7 @@ export const Header = () => {
               animate={{ opacity: 1 }}
               className="text-xl font-bold bg-gradient-to-r from-purple-600 to-blue-600 bg-clip-text text-transparent"
             >
-              Portfolio
+              WebCraft
             </motion.div>
   
             {/* Desktop Navigation */}

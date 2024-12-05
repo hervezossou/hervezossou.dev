@@ -16,7 +16,7 @@ export default function Footer () {
                     {/* Brand Section */}
                     <div className="space-y-4">
                         <h3 className="text-xl font-bold bg-gradient-to-r from-purple-600 to-blue-600 bg-clip-text text-transparent">
-                            Portfolio
+                            WebCraft
                         </h3>
                         <p className="text-gray-600 dark:text-gray-400">
                             Crafting digital experiences with passion and precision.
