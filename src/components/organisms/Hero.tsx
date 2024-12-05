@@ -29,7 +29,7 @@ export default function Hero () {
                             animate={{ opacity: 1 }}
                             transition={{ delay: 0.2 }}
                         >
-                            I&apos;m a Front-End Developer with proficiency in React.js & Tailwindcss. I&apos;m focus on crafting beautiful and performant web experiences with modern technologies
+                            I&apos;m a Front-End Developer with proficiency in React.js & Tailwindcss. I&apos;m focus on crafting beautiful and performant web experiences with modern technologies.
                         </motion.p>
                         <SocialLinks />
                     </motion.div>
