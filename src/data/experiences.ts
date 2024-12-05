@@ -1,20 +1,20 @@
 export const experiences = [
     {
-      period: '2021 - Present',
-      title: 'Senior Frontend Developer',
-      company: 'Tech Innovators Inc.',
-      description: 'Lead developer for enterprise web applications, mentoring junior developers, and implementing best practices.',
+      period: 'September 2024 - December 2024',
+      title: 'Front-End Developer Trainee',
+      company: 'TechSeed Academy Bootcamp',
+      description: 'Specialized in Front-End Development, mastering React.js and exploring back-end technologies like Node.js and MongoDB. Designed user-focused solutions by applying both front-end and back-end skills.',
     },
     {
-      period: '2019 - 2021',
-      title: 'Frontend Developer',
-      company: 'Digital Solutions Ltd.',
-      description: 'Developed responsive web applications using React and modern JavaScript frameworks.',
+      period: 'August 2024 - September 2024',
+      title: 'Front-End Developer',
+      company: 'Figma To Code Challenge',
+      description: 'Brought Figma designs to life using HTML, CSS, and JavaScript, leveraging my development skills to turn static mockups into functional web pages',
     },
     {
-      period: '2018 - 2019',
-      title: 'Junior Web Developer',
-      company: 'WebCraft Agency',
-      description: 'Created and maintained client websites, implementing UI/UX designs and ensuring cross-browser compatibility.',
+      period: 'May 2023 - November 2023',
+      title: 'Front-End Developer Intern',
+      company: 'COSIT BENIN',
+      description: 'Learned the fundamentals of web development, enabling me to create a landing page and design the interface for a Text-to-Speech application as part of my thesis project',
     },
 ]

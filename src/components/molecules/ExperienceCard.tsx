@@ -28,8 +28,8 @@ export default function ExperienceCard ({experience, index} : ExperienceCardProp
                   {experience.period}
                 </span>
                 <h3 className="text-xl font-bold mt-1 mb-2">{experience.title}</h3>
-                <h4 className="text-lg text-gray-600 dark:text-gray-400 mb-3">{experience.company}</h4>
-                <p className="text-gray-600 dark:text-gray-300">{experience.description}</p>
+                <h4 className="text-lg font-semibold text-gray-600 dark:text-gray-400 mb-3">{experience.company}</h4>
+                <p className="text-gray-600 text-justify dark:text-gray-300">{experience.description}</p>
             </div>
         </motion.div>
     )
