@@ -23,31 +23,32 @@ export default function About () {
                         initial={{ opacity: 0, y: 20 }}
                         whileInView={{ opacity: 1, y: 0 }}
                         transition={{ duration: 0.8 }}
-                        className="w-full md:w-2/3 text-center md:text-left"
+                        className="w-full md:w-2/3 text-center md:text-justify"
                     >
                         <motion.p
-                            className="text-xl text-gray-600 dark:text-gray-300 mb-6"
+                            className="text-base text-gray-600 dark:text-gray-300 mb-6"
                             initial={{ opacity: 0 }}
                             whileInView={{ opacity: 1 }}
                             transition={{ delay: 0.2 }}
                         >
-                            With over 5 years of experience in frontend development, I specialize in creating responsive and intuitive user interfaces that deliver exceptional user experiences.
+                            With a background in statistical engineering, I discovered my passion for development in 2023 during an internship with COSIT Benin. This experience ignited my love for crafting visually stunning, interactive, and accessible user interfaces.
                         </motion.p>
                         <motion.p
-                            className="text-xl text-gray-600 dark:text-gray-300 mb-6"
+                            className="text-base text-gray-600 dark:text-gray-300 mb-6"
                             initial={{ opacity: 0 }}
                             whileInView={{ opacity: 1 }}
                             transition={{ delay: 0.3 }}
                         >
+                            I've worked hard to master the basic technologies of web page design, and specialize in creating responsive, intuitive interfaces that deliver an exceptional user experience. 
                             My expertise includes modern JavaScript frameworks, particularly React, along with state-of-the-art tools and best practices in web development.
                         </motion.p>
                         <motion.p
-                            className="text-xl text-gray-600 dark:text-gray-300"
+                            className="text-base text-gray-600 dark:text-gray-300"
                             initial={{ opacity: 0 }}
                             whileInView={{ opacity: 1 }}
                             transition={{ delay: 0.4 }}
                         >
-                            I'm passionate about creating accessible, performant, and beautiful web applications that make a difference in people's lives.
+                            I&apos;m driven by a passion for creating accessible, high-performance, and elegant web applications that positively impact people's lives.
                         </motion.p>
                     </motion.div>
                 </div>

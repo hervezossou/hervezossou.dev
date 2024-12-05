@@ -13,23 +13,23 @@ export default function Hero () {
                         initial={{ opacity: 0, y: 20 }}
                         animate={{ opacity: 1, y: 0 }}
                         transition={{ duration: 0.8 }}
-                        className="w-full md:w-1/2 text-center md:text-left"
+                        className="w-full md:w-1/2 text-center md:text-justify"
                     >
                         <motion.h1
-                            className="text-5xl lg:text-6xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-purple-600 to-blue-600 mb-6"
+                            className="text-3xl lg:text-4xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-purple-600 to-blue-600 mb-6"
                             initial={{ scale: 0.5 }}
                             animate={{ scale: 1 }}
                             transition={{ duration: 0.5 }}
                         >
-                            Frontend Developer
+                            Hi, I&apos;m Herve ZOSSOU
                         </motion.h1>
                         <motion.p
-                            className="text-xl text-gray-600 dark:text-gray-300 mb-8 max-w-2xl mx-auto md:mx-0"
+                            className="text-base text-gray-600 dark:text-gray-300 mb-8 max-w-2xl mx-auto md:mx-0"
                             initial={{ opacity: 0 }}
                             animate={{ opacity: 1 }}
                             transition={{ delay: 0.2 }}
                         >
-                            Crafting beautiful and performant web experiences with modern technologies
+                            I&apos;m a Front-End Developer with proficiency in React.js & Tailwindcss. I&apos;m focus on crafting beautiful and performant web experiences with modern technologies
                         </motion.p>
                         <SocialLinks />
                     </motion.div>
