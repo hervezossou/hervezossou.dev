@@ -38,7 +38,7 @@ export default function ProjectCard ({ project, index } : ProjectCardProps) {
                 <h3 className="text-xl font-semibold">{project.title}</h3>
                 <ExternalLink className="w-5 h-5 opacity-0 group-hover:opacity-100 transition-opacity" />
             </div>
-            <p className="text-gray-600 dark:text-gray-300 mb-4">{project.description}</p>
+            <p className="text-gray-600 text-justify md:text-left dark:text-gray-300 mb-4">{project.description}</p>
             <div className="flex flex-wrap gap-2">
                 {project.tags.map((tag, tagIndex) => (
                     <span

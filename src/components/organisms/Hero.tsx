@@ -21,7 +21,7 @@ export default function Hero () {
                             animate={{ scale: 1 }}
                             transition={{ duration: 0.5 }}
                         >
-                            Hi, I&apos;m Herve ZOSSOU
+                            Hi, I&apos;m Hervé ZOSSOU
                         </motion.h1>
                         <motion.p
                             className="text-base text-gray-600 dark:text-gray-300 mb-8 max-w-2xl mx-auto md:mx-0"
