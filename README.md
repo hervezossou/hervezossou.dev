@@ -1,7 +1,7 @@
 <h1 align="center">
   My Personal Portfolio Website
 </h1>
-<p align="center">
+<p align="left">
   My personal portfolio showcasing my expertise in front-end development. Built with React.js, TypeScript, Tailwind CSS, and Framer Motion to deliver a clean, responsive, and interactive user experience. Deployed seamlessly on Vercel for fast and reliable access.⚡
 </p>
 
