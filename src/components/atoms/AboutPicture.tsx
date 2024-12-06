@@ -1,4 +1,5 @@
 import { motion } from "motion/react"
+import AboutPhoto from '../../assets/AboutPicture.png'
 
 export default function AboutPicture () {
     return (
@@ -16,9 +17,9 @@ export default function AboutPicture () {
                     transition={{ duration: 0.2 }}
                 >
                     <img
-                        src="https://images.unsplash.com/photo-1522075469751-3a6694fb2f61?auto=format&fit=crop&q=80&w=800"
+                        src={AboutPhoto}
                         alt="About Me"
-                        className="w-full h-full object-cover"
+                        className="w-full h-full object-center"
                     />
                 </motion.div>
             </div>
