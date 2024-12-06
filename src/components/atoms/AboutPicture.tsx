@@ -1,5 +1,5 @@
 import { motion } from "motion/react"
-import AboutPhoto from '../../assets/AboutPicture.png'
+import AboutPhoto from '../../assets/AboutPhoto.png'
 
 export default function AboutPicture () {
     return (
@@ -19,7 +19,7 @@ export default function AboutPicture () {
                     <img
                         src={AboutPhoto}
                         alt="About Me"
-                        className="w-full h-full object-center"
+                        className="w-full h-full object-cover"
                     />
                 </motion.div>
             </div>
