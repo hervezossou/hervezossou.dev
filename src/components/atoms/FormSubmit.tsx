@@ -6,6 +6,7 @@ export default function FormSubmit () {
         <motion.button
             whileHover={{scale: 1.02}}
             whileTap={{scale: 0.98}}
+            type="submit"
             className="w-full py-3 px-6 rounded-lg bg-gradient-to-r from-purple-600 to-blue-600 flex items-center text-white font-medium justify-center gap-2"
         >   
             <span>Send Message</span>
