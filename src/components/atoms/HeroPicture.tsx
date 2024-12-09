@@ -1,4 +1,5 @@
 import { motion } from "motion/react"
+import HeroPhoto from '../../assets/HeroPhoto.png'
 
 export default function HeroPicture () {
     return (
@@ -16,7 +17,7 @@ export default function HeroPicture () {
                     transition={{ duration: 0.2 }}
                 >
                     <img
-                        src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&q=80&w=800"
+                        src={HeroPhoto}
                         alt="Profile"
                         className="w-full h-full object-cover"
                     />

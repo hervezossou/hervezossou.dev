@@ -11,7 +11,7 @@ export default function SocialLinks () {
           transition={{ delay: 0.4 }}
       >
           <SocialLink href="https://github.com/hervezossou" icon={<Github />} label="GitHub" />
-          <SocialLink href="www.linkedin.com/in/hervezossou" icon={<Linkedin />} label="LinkedIn" />
+          <SocialLink href="https://linkedin.com/in/hervezossou" icon={<Linkedin />} label="LinkedIn" />
           <SocialLink href="https://x.com/0xHervenz" icon={<Twitter />} label="Twitter" />
           <SocialLink href="mailto:contacthervenz@google.com" icon={<Mail />} label="Email" />
       </motion.div>
