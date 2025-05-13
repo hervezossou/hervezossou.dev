@@ -1,5 +1,11 @@
 export const experiences = [
     {
+      period: 'March 2025 - May 2025',
+      title: 'Freelance Developer & Project Manager',
+      company: 'Kemaco Sarl',
+      description: 'Creating a website for a local company, overseeing the project from conception to deployment. Utilized Next.js to build a responsive and user-friendly interface, while managing timelines and client expectations.',
+    },
+    {
       period: 'September 2024 - December 2024',
       title: 'Front-End Developer Trainee',
       company: 'TechSeed Academy Bootcamp',
