@@ -52,14 +52,16 @@ export default function Footer () {
                 </div>
                 {/* Copyright */}
                 <motion.div
-                        initial={{ opacity: 0 }}
-                        whileInView={{ opacity: 1 }}
-                        className="mt-8 pt-8 border-t border-gray-200 dark:border-white/10 text-center text-gray-600 dark:text-gray-400 flex items-center justify-center gap-1"
-                    >
+                    initial={{ opacity: 0 }}
+                    whileInView={{ opacity: 1 }}
+                    className="mt-8 flex flex-col items-center justify-center gap-1 pt-8 border-t border-gray-200 dark:border-white/10 text-center text-gray-600 dark:text-gray-400 lg:flex-row"
+                >
+                    <div className="flex items-center gap-1">
                         <span>Made with</span>
                         <Heart className="w-4 h-4 text-red-500 inline" />
-                        <span>© {currentYear} Portfolio. All rights reserved.</span>
-                    </motion.div>
+                    </div>
+                    <span>© {currentYear} Portfolio. All rights reserved.</span>
+                </motion.div>
             </div>
         </motion.footer>
     )
