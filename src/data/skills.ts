@@ -31,9 +31,15 @@ export const skills = [
   },
   {
     icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg",
-    title: 'React.js',
+    title: 'ReactJs',
     description: 'Component-based architecture and hooks',
     level: 75
+  },
+  {
+    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-original.svg",
+    title: 'NextJs',
+    description: 'Server-side rendering and static site generation',
+    level: 60
   },
   {
     icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/framermotion/framermotion-original.svg",
