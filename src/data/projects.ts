@@ -1,25 +1,27 @@
-import DoctorMatthew from '../assets/DoctorMatthew.png'
+import ballamasCover from "../../public/ballamas-cover.png";
+import tokenaCover from "../../public/tokena-cover.png";
+import kemacoCover from "../../public/kemaco-cover.png";
 
 export const projects = [
     {
-      title: 'TaskEase',
-      description: 'A modern task management tool designed to help individuals and teams to stay focued, organized and productive to achieve personal goals or complex projects.',
-      image: 'https://images.unsplash.com/photo-1661956602116-aa6865609028?auto=format&fit=crop&q=80&w=800',
-      tags: ['React.js', 'JavaScript', 'TailwindCSS', 'Node.js', 'PostgreSQL'],
-      url: '#'
+      title: 'Kemaco Sarl Website',
+      description: 'A website for a company that specializes in building modern construction using shipping container. It showcases their services with a modern design, easy navigation, and a responsive layout that works well on all devices.',
+      image: kemacoCover,
+      tags: ['NextJs', 'TypeScript', 'TailwindCSS', 'Node.js', 'PostgreSQL'],
+      url: 'https://kemaco.pro/'
     },
     {
-      title: 'BluePink',
-      description: 'A conversational AI assistant dedicated to raising awareness about breast and prostate cancer, providing reliable informations, support and personal guidance.',
-      image: 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&q=80&w=800',
-      tags: ['React.js', 'JavaScript', 'TailwindCSS', 'Python', 'FastAPI', 'MySQL'],
-      url: '#'
+      title: 'Ballamas - E-commerce',
+      description: 'A landing page for an e-commerce website that sells sports equipment and apparel. The page features a clean and modern design, with a focus on showcasing the products and providing a seamless shopping experience.',
+      image: ballamasCover,
+      tags: ['HTML', 'CSS', 'JavaScript', 'Mock.shop API'],
+      url: 'https://figma-to-code-ed2-week2-gamma.vercel.app/'
     },
     {
-      title: 'Doctor Matthew',
-      description: 'A landing page introduces his expertise and services, offering a seamless way for patients to connect and access personalized care.',
-      image: DoctorMatthew,
-      tags: ['React.js', 'JavaScript', 'TailwindCSS'],
-      url: '#'
+      title: 'Tokena - Crypto Tracker',
+      description: 'Tokena is a cryptocurrency tracker that provides real-time data on various cryptocurrencies, including their prices, market capitalization, and trading volume.',
+      image: tokenaCover,
+      tags: ['HTML', 'CSS', 'JavaScript', 'Coingecko API'],
+      url: 'https://figma-to-code-ed2-week3-topaz.vercel.app/'
     }
 ]
